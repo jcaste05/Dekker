@@ -1,0 +1,49 @@
+Script started on 2023-02-09 09:42:17+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="134" LINES="27"]
+[?2004h]0;prpa@prpa: ~[01;32mprpa@prpa[00m:[01;34m~[00m$ git clone [7mgit@github.com:jcaste05/Dekker.git[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit@github.com:jcaste05/Dekker.git
+[?2004lCloning into 'Dekker'...
+remote: Enumerating objects: 4, done.[K
+remote: Counting objects:  25% (1/4)[Kremote: Counting objects:  50% (2/4)[Kremote: Counting objects:  75% (3/4)[Kremote: Counting objects: 100% (4/4)[Kremote: Counting objects: 100% (4/4), done.[K
+remote: Compressing objects:  33% (1/3)[Kremote: Compressing objects:  66% (2/3)[Kremote: Compressing objects: 100% (3/3)[Kremote: Compressing objects: 100% (3/3), done.[K
+remote: Total 4 (delta 1), reused 4 (delta 1), pack-reused 0[K
+Receiving objects:  25% (1/4)Receiving objects:  50% (2/4)Receiving objects:  75% (3/4)Receiving objects: 100% (4/4)Receiving objects: 100% (4/4), done.
+Resolving deltas:   0% (0/1)Resolving deltas: 100% (1/1)Resolving deltas: 100% (1/1), done.
+[?2004h]0;prpa@prpa: ~[01;32mprpa@prpa[00m:[01;34m~[00m$ ls
+[?2004l03.py  3_procesos.py  [0m[01;34mDekker[0m              [01;34mDescargas[0m  [01;34mDocumentos[0m  [01;34mMultiprocesing[0m       [01;34mMúsica[0m  [01;34mPlantillas[0m  [01;34msnap[0m
+04.py  4_procesos.py  Dekker-Ignacio.txt  [01;34mDesktop[0m    [01;34mImágenes[0m    multiprocessing.txt  [01;34mpatata[0m  [01;34mPúblico[0m     [01;34mVídeos[0m
+[?2004h]0;prpa@prpa: ~[01;32mprpa@prpa[00m:[01;34m~[00m$ cd Dekker
+[?2004l[?2004h]0;prpa@prpa: ~/Dekker[01;32mprpa@prpa[00m:[01;34m~/Dekker[00m$ cp 03.py[K[K[K[K[K../03.py 03.py
+[?2004l[?2004h]0;prpa@prpa: ~/Dekker[01;32mprpa@prpa[00m:[01;34m~/Dekker[00m$ cp ../04.py 04.py
+[?2004l[?2004h]0;prpa@prpa: ~/Dekker[01;32mprpa@prpa[00m:[01;34m~/Dekker[00m$ ls
+[?2004l01.py  02.py  03.py  04.py
+[?2004h]0;prpa@prpa: ~/Dekker[01;32mprpa@prpa[00m:[01;34m~/Dekker[00m$ git add *py
+[?2004l[?2004h]0;prpa@prpa: ~/Dekker[01;32mprpa@prpa[00m:[01;34m~/Dekker[00m$ git commit -m 'He subido archivos 03.py y 04.py'
+[?2004l[main d05218a] He subido archivos 03.py y 04.py
+ 2 files changed, 116 insertions(+)
+ create mode 100644 03.py
+ create mode 100644 04.py
+[?2004h]0;prpa@prpa: ~/Dekker[01;32mprpa@prpa[00m:[01;34m~/Dekker[00m$ git status
+[?2004lOn branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+[?2004h]0;prpa@prpa: ~/Dekker[01;32mprpa@prpa[00m:[01;34m~/Dekker[00m$ git log
+[?2004l[?1h=[33mcommit d05218ae9d51281cfd922fc09be1fad9d9bc24cd[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+Author: ignafe09 <ignafe09@ucm.es>[m
+Date:   Thu Feb 9 09:45:09 2023 +0100[m
+[m
+    He subido archivos 03.py y 04.py[m
+[m
+[33mcommit ff7bf4cfb391bcdff7506d28ee4fed22d385aca4[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: prpa@prpa <jcaste05@ucm.es>[m
+Date:   Thu Feb 9 09:39:47 2023 +0100[m
+[m
+    He subido 01.py y 02.py[m
+[K[?1l>[?2004h]0;prpa@prpa: ~/Dekker[01;32mprpa@prpa[00m:[01;34m~/Dekker[00m$ git [K[K[K[Kgit push
+[?2004lEnumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 978 bytes | 244.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), done.[K
+To github.com:j
