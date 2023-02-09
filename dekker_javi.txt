@@ -1,0 +1,51 @@
+Script started on 2023-02-09 09:36:15+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="144" LINES="37"]
+[?2004h]0;prpa@prpa: ~[01;32mprpa@prpa[00m:[01;34m~[00m$ git clone [7mgit@github.com:jcaste05/Dekker.git[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit@github.com:jcaste05/Dekker.git
+[?2004lCloning into 'Dekker'...
+warning: You appear to have cloned an empty repository.
+[?2004h]0;prpa@prpa: ~[01;32mprpa@prpa[00m:[01;34m~[00m$ ls
+[?2004l01.py          1_procesos.py  dekker_Javi.txt  [0m[01;34mDocumentos[0m  [01;34mMultiprocesing[0m                 [01;34mMúsica[0m      [01;34msnap[0m
+02.py          2_procesos.py  [01;34mDescargas[0m        id_rsa      multiprocessing_Javier_01.txt  [01;34mPlantillas[0m  [01;34mVídeos[0m
+0_procesos.py  [01;34mDekker[0m         [01;34mDesktop[0m          [01;34mImágenes[0m    multiprocessing_Javier.txt     [01;34mPúblico[0m
+[?2004h]0;prpa@prpa: ~[01;32mprpa@prpa[00m:[01;34m~[00m$ cd Dekker/
+[?2004l[?2004h]0;prpa@prpa: ~/Dekker[01;32mprpa@prpa[00m:[01;34m~/Dekker[00m$ ls
+[?2004l[?2004h]0;prpa@prpa: ~/Dekker[01;32mprpa@prpa[00m:[01;34m~/Dekker[00m$ cd ..
+[?2004l[?2004h]0;prpa@prpa: ~[01;32mprpa@prpa[00m:[01;34m~[00m$ cp 01.py 02.py Dekker/
+[?2004l[?2004h]0;prpa@prpa: ~[01;32mprpa@prpa[00m:[01;34m~[00m$ cd Dekker
+[?2004l[?2004h]0;prpa@prpa: ~/Dekker[01;32mprpa@prpa[00m:[01;34m~/Dekker[00m$ ls
+[?2004l01.py  02.py
+[?2004h]0;prpa@prpa: ~/Dekker[01;32mprpa@prpa[00m:[01;34m~/Dekker[00m$ git log
+[?2004lfatal: your current branch 'main' does not have any commits yet
+[?2004h]0;prpa@prpa: ~/Dekker[01;32mprpa@prpa[00m:[01;34m~/Dekker[00m$ git add *py
+[?2004l[?2004h]0;prpa@prpa: ~/Dekker[01;32mprpa@prpa[00m:[01;34m~/Dekker[00m$ git commit -m "He suv[Kbido 01.py y 02.py"
+[?2004l[main (root-commit) ff7bf4c] He subido 01.py y 02.py
+ 2 files changed, 87 insertions(+)
+ create mode 100644 01.py
+ create mode 100644 02.py
+[?2004h]0;prpa@prpa: ~/Dekker[01;32mprpa@prpa[00m:[01;34m~/Dekker[00m$ git log
+[?2004l[?1h=[33mcommit ff7bf4cfb391bcdff7506d28ee4fed22d385aca4[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+Author: prpa@prpa <jcaste05@ucm.es>[m
+Date:   Thu Feb 9 09:39:47 2023 +0100[m
+[m
+    He subido 01.py y 02.py[m
+[K[?1l>[?2004h]0;prpa@prpa: ~/Dekker[01;32mprpa@prpa[00m:[01;34m~/Dekker[00m$ git push
+[?2004lEnumerating objects: 4, done.
+Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 860 bytes | 286.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), done.[K
+To github.com:jcaste05/Dekker.git
+ * [new branch]      main -> main
+[?2004h]0;prpa@prpa: ~/Dekker[01;32mprpa@prpa[00m:[01;34m~/Dekker[00m$ python [K[K[K[K[K[K[Kcd ..
+[?2004l[?2004h]0;prpa@prpa: ~[01;32mprpa@prpa[00m:[01;34m~[00m$ python3 01.py > 01.txt
+[?2004l[?2004h]0;prpa@prpa: ~[01;32mprpa@prpa[00m:[01;34m~[00m$ ls
+[?2004l01.py   0_procesos.py  [0m[01;34mDekker[0m           [01;34mDesktop[0m     [01;34mImágenes[0m                       multiprocessing_Javier.txt  [01;34mPúblico[0m
+01.txt  1_procesos.py  dekker_Javi.txt  [01;34mDocumentos[0m  [01;34mMultiprocesing[0m                 [01;34mMúsica[0m                      [01;34msnap[0m
+02.py   2_procesos.py  [01;34mDescargas[0m        id_rsa      multiprocessing_Javier_01.txt  [01;34mPlantillas[0m                  [01;34mVídeos[0m
+[?2004h]0;prpa@prpa: ~[01;32mprpa@prpa[00m:[01;34m~[00m$ emacs 01.txt
+[?2004l[?2004h]0;prpa@prpa: ~[01;32mprpa@prpa[00m:[01;34m~[00m$ emacs 01.txtls[Kpython3 01.py > 01.txt[1P.txt2.txt[1P[1@2
+[?2004l[?2004h]0;prpa@prpa: ~[01;32mprpa@prpa[00m:[01;34m~[00m$ emacs 02.txt
+[?2004l[?2004h]0;prpa@prpa: ~[01;32mprpa@prpa[00m:[01;34m~[00m$ [?2004l
+exit
+
+Script done on 2023-02-09 09:42:13+01:00 [COMMAND_EXIT_CODE="0"]

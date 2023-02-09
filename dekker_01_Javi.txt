@@ -1,0 +1,2562 @@
+Script started on 2023-02-09 09:50:21+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="144" LINES="37"]
+[?2004h]0;prpa@prpa: ~/Dekker[01;32mprpa@prpa[00m:[01;34m~/Dekker[00m$ cp ../dekker_Javi.txt dekker_javi.txt
+[?2004l[?2004h]0;prpa@prpa: ~/Dekker[01;32mprpa@prpa[00m:[01;34m~/Dekker[00m$ ls
+[?2004l01.py  02.py  dekker_01_Javi.txt  dekker_javi.txt
+[?2004h]0;prpa@prpa: ~/Dekker[01;32mprpa@prpa[00m:[01;34m~/Dekker[00m$ git pull
+[?2004lremote: Enumerating objects: 11, done.[K
+remote: Counting objects:   9% (1/11)[Kremote: Counting objects:  18% (2/11)[Kremote: Counting objects:  27% (3/11)[Kremote: Counting objects:  36% (4/11)[Kremote: Counting objects:  45% (5/11)[Kremote: Counting objects:  54% (6/11)[Kremote: Counting objects:  63% (7/11)[Kremote: Counting objects:  72% (8/11)[Kremote: Counting objects:  81% (9/11)[Kremote: Counting objects:  90% (10/11)[Kremote: Counting objects: 100% (11/11)[Kremote: Counting objects: 100% (11/11), done.[K
+remote: Compressing objects:  11% (1/9)[Kremote: Compressing objects:  22% (2/9)[Kremote: Compressing objects:  33% (3/9)[Kremote: Compressing objects:  44% (4/9)[Kremote: Compressing objects:  55% (5/9)[Kremote: Compressing objects:  66% (6/9)[Kremote: Compressing objects:  77% (7/9)[Kremote: Compressing objects:  88% (8/9)[Kremote: Compressing objects: 100% (9/9)[Kremote: Compressing objects: 100% (9/9), done.[K
+Unpacking objects:  10% (1/10)Unpacking objects:  20% (2/10)Unpacking objects:  30% (3/10)Unpacking objects:  40% (4/10)Unpacking objects:  50% (5/10)Unpacking objects:  60% (6/10)Unpacking objects:  70% (7/10)Unpacking objects:  80% (8/10)Unpacking objects:  90% (9/10)Unpacking objects: 100% (10/10)Unpacking objects: 100% (10/10), 2.19 KiB | 203.00 KiB/s, done.
+remote: Total 10 (delta 4), reused 3 (delta 1), pack-reused 0[K
+From github.com:jcaste05/Dekker
+   ff7bf4c..0d93ff6  main       -> origin/main
+Updating ff7bf4c..0d93ff6
+Fast-forward
+ 03.py     | 56 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ 04.py     | 60 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ README.md |  3 [32m+++[m
+ 3 files changed, 119 insertions(+)
+ create mode 100644 03.py
+ create mode 100644 04.py
+ create mode 100644 README.md
+[?2004h]0;prpa@prpa: ~/Dekker[01;32mprpa@prpa[00m:[01;34m~/Dekker[00m$ git log
+[?2004l[?1h=[33mcommit 0d93ff66de0cfa7cbb478d1bac1b665f9e630d6c[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m[m
+Author: jcaste05 <124076427+jcaste05@users.noreply.github.com>[m
+Date:   Thu Feb 9 09:47:23 2023 +0100[m
+[m
+    Update README.md[m
+[m
+[33mcommit c7aa43d46aded5c7d9529039ba755645c6ae5da3[m[m
+Author: jcaste05 <124076427+jcaste05@users.noreply.github.com>[m
+Date:   Thu Feb 9 09:46:50 2023 +0100[m
+[m
+    Create README.md[m
+[m
+[33mcommit d05218ae9d51281cfd922fc09be1fad9d9bc24cd[m[m
+Author: ignafe09 <ignafe09@ucm.es>[m
+Date:   Thu Feb 9 09:45:09 2023 +0100[m
+[m
+    He subido archivos 03.py y 04.py[m
+[m
+[33mcommit ff7bf4cfb391bcdff7506d28ee4fed22d385aca4[m[m
+Author: prpa@prpa <jcaste05@ucm.es>[m
+Date:   Thu Feb 9 09:39:47 2023 +0100[m
+[m
+    He subido 01.py y 02.py[m
+[K[?1l>[?2004h]0;prpa@prpa: ~/Dekker[01;32mprpa@prpa[00m:[01;34m~/Dekker[00m$ ls
+[?2004l01.py  02.py  03.py  04.py  dekker_01_Javi.txt  dekker_javi.txt  README.md
+[?2004h]0;prpa@prpa: ~/Dekker[01;32mprpa@prpa[00m:[01;34m~/Dekker[00m$ python3 03.py
+[?2004lValor inicial del contador 0
+1−0: Non−critical Section
+0−0: Non−critical Section
+0−0: End of non−critical Section
+0−0: Critical section
+0−0: Inside critical section
+0−0: End of critical section
+0−1: Non−critical Section
+0−1: End of non−critical Section
+0−1: Critical section
+0−1: Inside critical section
+0−1: End of critical section
+0−2: Non−critical Section
+0−2: End of non−critical Section
+0−2: Critical section
+0−2: Inside critical section
+0−2: End of critical section
+0−3: Non−critical Section
+0−3: End of non−critical Section
+0−3: Critical section
+0−3: Inside critical section
+4−0: Non−critical Section
+4−0: End of non−critical Section
+4−0: Giving up
+3−0: Non−critical Section
+1−0: End of non−critical Section
+1−0: Giving up
+1−0: Giving up
+1−0: Giving up
+1−0: Giving up
+1−0: Giving up
+1−0: Giving up
+1−0: Giving up
+1−0: Giving up
+2−0: Non−critical Section
+2−0: End of non−critical Section
+2−0: Giving up
+2−0: Giving up
+2−0: Giving up
+2−0: Giving up
+2−0: Giving up
+0−3: End of critical section
+1−0: Giving up
+1−0: Giving up
+1−0: Giving up
+1−0: Giving up
+1−0: Giving up
+1−0: Giving up
+1−0: Giving up
+1−0: Critical section
+2−0: Giving up
+0−4: Non−critical Section
+2−0: Giving up
+3−0: End of non−critical Section
+3−0: Giving up
+0−4: End of non−critical Section
+0−4: Giving up
+1−0: Inside critical section
+4−0: Giving up
+4−0: Giving up
+2−0: Giving up
+2−0: Giving up
+1−0: End of critical section
+1−1: Non−critical Section
+0−4: Giving up
+0−4: Critical section
+3−0: Giving up
+3−0: Giving up
+4−0: Giving up
+1−1: End of non−critical Section
+1−1: Giving up
+2−0: Giving up
+2−0: Giving up
+4−0: Giving up
+4−0: Giving up
+3−0: Giving up
+0−4: Inside critical section
+0−4: End of critical section
+1−1: Giving up
+0−5: Non−critical Section
+0−5: End of non−critical Section
+2−0: Giving up
+3−0: Giving up
+3−0: Giving up
+1−1: Critical section
+4−0: Giving up
+4−0: Giving up
+2−0: Giving up
+0−5: Giving up
+0−5: Giving up
+1−1: Inside critical section
+1−1: End of critical section
+3−0: Giving up
+2−0: Giving up
+0−5: Critical section
+4−0: Giving up
+4−0: Giving up
+1−2: Non−critical Section
+2−0: Giving up
+3−0: Giving up
+3−0: Giving up
+2−0: Giving up
+1−2: End of non−critical Section
+1−2: Giving up
+0−5: Inside critical section
+0−5: End of critical section
+4−0: Giving up
+4−0: Giving up
+4−0: Giving up
+4−0: Giving up
+4−0: Giving up
+4−0: Giving up
+4−0: Giving up
+5−0: Non−critical Section
+2−0: Giving up
+2−0: Giving up
+1−2: Giving up
+0−6: Non−critical Section
+0−6: End of non−critical Section
+0−6: Giving up
+3−0: Critical section
+3−0: Inside critical section
+3−0: End of critical section
+3−1: Non−critical Section
+3−1: End of non−critical Section
+3−1: Critical section
+3−1: Inside critical section
+3−1: End of critical section
+5−0: End of non−critical Section
+5−0: Giving up
+5−0: Giving up
+5−0: Giving up
+5−0: Giving up
+5−0: Giving up
+5−0: Giving up
+5−0: Giving up
+5−0: Giving up
+5−0: Giving up
+5−0: Giving up
+5−0: Giving up
+5−0: Giving up
+5−0: Giving up
+5−0: Giving up
+5−0: Giving up
+5−0: Giving up
+5−0: Giving up
+7−0: Non−critical Section
+1−2: Giving up
+1−2: Giving up
+2−0: Giving up
+2−0: Giving up
+0−6: Giving up
+0−6: Giving up
+0−6: Giving up
+0−6: Giving up
+0−6: Giving up
+3−2: Non−critical Section
+3−2: End of non−critical Section
+4−0: Critical section
+4−0: Inside critical section
+4−0: End of critical section
+4−1: Non−critical Section
+4−1: End of non−critical Section
+4−1: Critical section
+4−1: Inside critical section
+4−1: End of critical section
+4−2: Non−critical Section
+4−2: End of non−critical Section
+4−2: Critical section
+4−2: Inside critical section
+4−2: End of critical section
+4−3: Non−critical Section
+6−0: Non−critical Section
+2−0: Giving up
+2−0: Critical section
+1−2: Giving up
+1−2: Giving up
+2−0: Inside critical section
+2−0: End of critical section
+2−1: Non−critical Section
+2−1: End of non−critical Section
+2−1: Critical section
+0−6: Giving up
+0−6: Giving up
+3−2: Giving up
+1−2: Giving up
+1−2: Giving up
+1−2: Giving up
+1−2: Giving up
+0−6: Giving up
+3−2: Giving up
+3−2: Giving up
+1−2: Giving up
+2−1: Inside critical section
+2−1: End of critical section
+1−2: Giving up
+0−6: Giving up
+2−2: Non−critical Section
+2−2: End of non−critical Section
+3−2: Critical section
+0−6: Giving up
+1−2: Giving up
+1−2: Giving up
+2−2: Giving up
+3−2: Inside critical section
+3−2: End of critical section
+2−2: Giving up
+0−6: Giving up
+0−6: Giving up
+3−3: Non−critical Section
+3−3: End of non−critical Section
+0−6: Giving up
+1−2: Critical section
+1−2: Inside critical section
+2−2: Giving up
+3−3: Giving up
+1−2: End of critical section
+1−3: Non−critical Section
+0−6: Giving up
+2−2: Giving up
+3−3: Giving up
+3−3: Critical section
+6−0: End of non−critical Section
+4−3: End of non−critical Section
+4−3: Giving up
+2−2: Giving up
+1−3: End of non−critical Section
+1−3: Giving up
+0−6: Giving up
+0−6: Giving up
+0−6: Giving up
+6−0: Giving up
+3−3: Inside critical section
+3−3: End of critical section
+2−2: Giving up
+2−2: Giving up
+1−3: Giving up
+4−3: Giving up
+1−3: Giving up
+3−4: Non−critical Section
+3−4: End of non−critical Section
+3−4: Giving up
+6−0: Critical section
+4−3: Giving up
+4−3: Giving up
+0−6: Giving up
+2−2: Giving up
+0−6: Giving up
+1−3: Giving up
+1−3: Giving up
+6−0: Inside critical section
+3−4: Giving up
+2−2: Giving up
+2−2: Giving up
+4−3: Giving up
+4−3: Giving up
+0−6: Giving up
+0−6: Giving up
+3−4: Giving up
+6−0: End of critical section
+6−1: Non−critical Section
+6−1: End of non−critical Section
+2−2: Giving up
+0−6: Giving up
+4−3: Giving up
+3−4: Giving up
+3−4: Giving up
+6−1: Giving up
+1−3: Critical section
+1−3: Inside critical section
+2−2: Giving up
+2−2: Giving up
+4−3: Giving up
+0−6: Giving up
+0−6: Giving up
+6−1: Giving up
+1−3: End of critical section
+1−4: Non−critical Section
+3−4: Giving up
+3−4: Giving up
+4−3: Giving up
+4−3: Giving up
+6−1: Critical section
+1−4: End of non−critical Section
+1−4: Giving up
+0−6: Giving up
+0−6: Giving up
+2−2: Giving up
+2−2: Giving up
+3−4: Giving up
+3−4: Giving up
+5−0: Giving up
+7−0: End of non−critical Section
+6−1: Inside critical section
+6−1: End of critical section
+6−2: Non−critical Section
+6−2: End of non−critical Section
+1−4: Giving up
+6−2: Critical section
+4−3: Giving up
+4−3: Giving up
+0−6: Giving up
+0−6: Giving up
+2−2: Giving up
+1−4: Giving up
+1−4: Giving up
+7−0: Giving up
+5−0: Giving up
+5−0: Giving up
+3−4: Giving up
+6−2: Inside critical section
+6−2: End of critical section
+6−3: Non−critical Section
+6−3: End of non−critical Section
+4−3: Giving up
+2−2: Giving up
+2−2: Giving up
+2−2: Giving up
+7−0: Giving up
+1−4: Giving up
+3−4: Giving up
+3−4: Giving up
+0−6: Critical section
+5−0: Giving up
+5−0: Giving up
+4−3: Giving up
+6−3: Giving up
+6−3: Giving up
+7−0: Giving up
+2−2: Giving up
+1−4: Giving up
+0−6: Inside critical section
+0−6: End of critical section
+3−4: Giving up
+4−3: Giving up
+4−3: Giving up
+5−0: Giving up
+5−0: Critical section
+2−2: Giving up
+7−0: Giving up
+1−4: Giving up
+2−2: Giving up
+6−3: Giving up
+3−4: Giving up
+0−7: Non−critical Section
+0−7: End of non−critical Section
+0−7: Giving up
+4−3: Giving up
+7−0: Giving up
+1−4: Giving up
+7−0: Giving up
+6−3: Giving up
+3−4: Giving up
+3−4: Giving up
+2−2: Giving up
+5−0: Inside critical section
+1−4: Giving up
+4−3: Giving up
+4−3: Giving up
+0−7: Giving up
+6−3: Giving up
+6−3: Giving up
+7−0: Giving up
+1−4: Giving up
+1−4: Giving up
+2−2: Giving up
+5−0: End of critical section
+5−1: Non−critical Section
+5−1: End of non−critical Section
+3−4: Giving up
+0−7: Giving up
+0−7: Giving up
+0−7: Giving up
+6−3: Giving up
+6−3: Giving up
+4−3: Giving up
+7−0: Giving up
+2−2: Critical section
+2−2: Inside critical section
+5−1: Giving up
+3−4: Giving up
+3−4: Giving up
+1−4: Giving up
+1−4: Giving up
+0−7: Giving up
+7−0: Giving up
+4−3: Giving up
+5−1: Giving up
+2−2: End of critical section
+2−3: Non−critical Section
+1−4: Giving up
+6−3: Giving up
+3−4: Giving up
+6−3: Giving up
+4−3: Critical section
+5−1: Giving up
+7−0: Giving up
+0−7: Giving up
+2−3: End of non−critical Section
+2−3: Giving up
+3−4: Giving up
+3−4: Giving up
+1−4: Giving up
+0−7: Giving up
+7−0: Giving up
+4−3: Inside critical section
+4−3: End of critical section
+4−4: Non−critical Section
+5−1: Giving up
+5−1: Giving up
+6−3: Giving up
+2−3: Giving up
+0−7: Giving up
+0−7: Giving up
+7−0: Giving up
+1−4: Giving up
+1−4: Giving up
+1−4: Giving up
+3−4: Critical section
+4−4: End of non−critical Section
+4−4: Giving up
+6−3: Giving up
+2−3: Giving up
+2−3: Giving up
+5−1: Giving up
+7−0: Giving up
+7−0: Giving up
+0−7: Giving up
+6−3: Giving up
+0−7: Giving up
+4−4: Giving up
+3−4: Inside critical section
+3−4: End of critical section
+3−5: Non−critical Section
+5−1: Giving up
+2−3: Giving up
+2−3: Critical section
+1−4: Giving up
+6−3: Giving up
+6−3: Giving up
+7−0: Giving up
+4−4: Giving up
+3−5: End of non−critical Section
+3−5: Giving up
+5−1: Giving up
+5−1: Giving up
+0−7: Giving up
+1−4: Giving up
+1−4: Giving up
+2−3: Inside critical section
+4−4: Giving up
+7−0: Giving up
+4−4: Giving up
+3−5: Giving up
+6−3: Giving up
+0−7: Giving up
+0−7: Giving up
+0−7: Giving up
+5−1: Giving up
+7−0: Giving up
+2−3: End of critical section
+2−4: Non−critical Section
+2−4: End of non−critical Section
+2−4: Giving up
+3−5: Giving up
+4−4: Giving up
+1−4: Giving up
+1−4: Giving up
+6−3: Giving up
+6−3: Giving up
+7−0: Critical section
+7−0: Inside critical section
+6−3: Giving up
+5−1: Giving up
+0−7: Giving up
+4−4: Giving up
+3−5: Giving up
+3−5: Giving up
+2−4: Giving up
+2−4: Giving up
+1−4: Giving up
+7−0: End of critical section
+7−1: Non−critical Section
+7−1: End of non−critical Section
+4−4: Giving up
+7−1: Giving up
+0−7: Giving up
+0−7: Giving up
+5−1: Giving up
+5−1: Giving up
+6−3: Giving up
+6−3: Giving up
+3−5: Giving up
+1−4: Critical section
+4−4: Giving up
+4−4: Giving up
+2−4: Giving up
+7−1: Giving up
+0−7: Giving up
+7−1: Giving up
+7−1: Giving up
+5−1: Giving up
+1−4: Inside critical section
+1−4: End of critical section
+1−5: Non−critical Section
+1−5: End of non−critical Section
+2−4: Giving up
+0−7: Giving up
+0−7: Critical section
+4−4: Giving up
+3−5: Giving up
+3−5: Giving up
+6−3: Giving up
+2−4: Giving up
+5−1: Giving up
+1−5: Giving up
+5−1: Giving up
+7−1: Giving up
+4−4: Giving up
+4−4: Giving up
+6−3: Giving up
+2−4: Giving up
+6−3: Giving up
+1−5: Giving up
+3−5: Giving up
+0−7: Inside critical section
+0−7: End of critical section
+0−8: Non−critical Section
+7−1: Giving up
+2−4: Giving up
+7−1: Giving up
+4−4: Giving up
+5−1: Giving up
+1−5: Giving up
+1−5: Giving up
+3−5: Giving up
+3−5: Giving up
+6−3: Critical section
+6−3: Inside critical section
+2−4: Giving up
+0−8: End of non−critical Section
+0−8: Giving up
+4−4: Giving up
+5−1: Giving up
+5−1: Giving up
+7−1: Giving up
+1−5: Giving up
+0−8: Giving up
+3−5: Giving up
+2−4: Giving up
+4−4: Giving up
+6−3: End of critical section
+6−4: Non−critical Section
+2−4: Giving up
+2−4: Giving up
+7−1: Giving up
+7−1: Giving up
+5−1: Giving up
+1−5: Giving up
+4−4: Critical section
+6−4: End of non−critical Section
+6−4: Giving up
+3−5: Giving up
+3−5: Giving up
+0−8: Giving up
+0−8: Giving up
+0−8: Giving up
+2−4: Giving up
+1−5: Giving up
+4−4: Inside critical section
+4−4: End of critical section
+4−5: Non−critical Section
+4−5: End of non−critical Section
+4−5: Giving up
+6−4: Giving up
+5−1: Giving up
+5−1: Giving up
+5−1: Giving up
+7−1: Giving up
+3−5: Giving up
+3−5: Giving up
+1−5: Critical section
+1−5: Inside critical section
+6−4: Giving up
+4−5: Giving up
+6−4: Giving up
+2−4: Giving up
+2−4: Giving up
+0−8: Giving up
+7−1: Giving up
+7−1: Giving up
+4−5: Giving up
+1−5: End of critical section
+1−6: Non−critical Section
+1−6: End of non−critical Section
+3−5: Giving up
+5−1: Giving up
+1−6: Giving up
+6−4: Giving up
+0−8: Giving up
+0−8: Giving up
+3−5: Critical section
+5−1: Giving up
+7−1: Giving up
+4−5: Giving up
+2−4: Giving up
+2−4: Giving up
+6−4: Giving up
+1−6: Giving up
+1−6: Giving up
+7−1: Giving up
+5−1: Giving up
+5−1: Giving up
+4−5: Giving up
+3−5: Inside critical section
+3−5: End of critical section
+3−6: Non−critical Section
+0−8: Giving up
+0−8: Critical section
+6−4: Giving up
+2−4: Giving up
+2−4: Giving up
+7−1: Giving up
+7−1: Giving up
+1−6: Giving up
+3−6: End of non−critical Section
+3−6: Giving up
+4−5: Giving up
+4−5: Giving up
+5−1: Giving up
+6−4: Giving up
+5−1: Giving up
+0−8: Inside critical section
+0−8: End of critical section
+2−4: Giving up
+3−6: Giving up
+1−6: Giving up
+6−4: Giving up
+1−6: Giving up
+4−5: Giving up
+4−5: Giving up
+0−9: Non−critical Section
+0−9: End of non−critical Section
+2−4: Critical section
+3−6: Giving up
+5−1: Giving up
+3−6: Giving up
+6−4: Giving up
+7−1: Giving up
+7−1: Giving up
+1−6: Giving up
+1−6: Giving up
+0−9: Giving up
+5−1: Giving up
+2−4: Inside critical section
+2−4: End of critical section
+2−5: Non−critical Section
+4−5: Giving up
+6−4: Giving up
+6−4: Critical section
+3−6: Giving up
+7−1: Giving up
+7−1: Giving up
+5−1: Giving up
+0−9: Giving up
+5−1: Giving up
+4−5: Giving up
+1−6: Giving up
+2−5: End of non−critical Section
+2−5: Giving up
+3−6: Giving up
+6−4: Inside critical section
+6−4: End of critical section
+3−6: Giving up
+0−9: Giving up
+0−9: Giving up
+7−1: Giving up
+1−6: Giving up
+4−5: Giving up
+1−6: Giving up
+5−1: Giving up
+6−5: Non−critical Section
+6−5: End of non−critical Section
+6−5: Giving up
+2−5: Critical section
+4−5: Giving up
+0−9: Giving up
+3−6: Giving up
+7−1: Giving up
+3−6: Giving up
+5−1: Giving up
+1−6: Giving up
+5−1: Giving up
+6−5: Giving up
+2−5: Inside critical section
+2−5: End of critical section
+6−5: Giving up
+0−9: Giving up
+7−1: Giving up
+4−5: Giving up
+4−5: Giving up
+1−6: Giving up
+1−6: Giving up
+3−6: Giving up
+2−6: Non−critical Section
+2−6: End of non−critical Section
+2−6: Giving up
+5−1: Critical section
+7−1: Giving up
+0−9: Giving up
+7−1: Giving up
+6−5: Giving up
+6−5: Giving up
+4−5: Giving up
+3−6: Giving up
+3−6: Giving up
+0−9: Giving up
+5−1: Inside critical section
+5−1: End of critical section
+0−9: Giving up
+2−6: Giving up
+1−6: Giving up
+7−1: Giving up
+4−5: Giving up
+2−6: Giving up
+6−5: Giving up
+5−2: Non−critical Section
+5−2: End of non−critical Section
+5−2: Giving up
+5−2: Giving up
+3−6: Critical section
+3−6: Inside critical section
+1−6: Giving up
+4−5: Giving up
+0−9: Giving up
+0−9: Giving up
+7−1: Giving up
+7−1: Giving up
+6−5: Giving up
+6−5: Giving up
+2−6: Giving up
+4−5: Giving up
+1−6: Giving up
+3−6: End of critical section
+3−7: Non−critical Section
+3−7: End of non−critical Section
+5−2: Giving up
+5−2: Giving up
+0−9: Giving up
+0−9: Giving up
+7−1: Giving up
+1−6: Critical section
+4−5: Giving up
+4−5: Giving up
+2−6: Giving up
+3−7: Giving up
+6−5: Giving up
+6−5: Giving up
+5−2: Giving up
+0−9: Giving up
+1−6: Inside critical section
+1−6: End of critical section
+7−1: Giving up
+7−1: Giving up
+2−6: Giving up
+3−7: Giving up
+3−7: Critical section
+4−5: Giving up
+0−9: Giving up
+5−2: Giving up
+0−9: Giving up
+6−5: Giving up
+1−7: Non−critical Section
+1−7: End of non−critical Section
+2−6: Giving up
+2−6: Giving up
+7−1: Giving up
+4−5: Giving up
+5−2: Giving up
+3−7: Inside critical section
+3−7: End of critical section
+6−5: Giving up
+6−5: Giving up
+1−7: Giving up
+1−7: Giving up
+0−9: Giving up
+4−5: Giving up
+5−2: Giving up
+5−2: Giving up
+7−1: Giving up
+3−8: Non−critical Section
+3−8: End of non−critical Section
+3−8: Giving up
+2−6: Critical section
+4−5: Giving up
+0−9: Giving up
+2−6: Inside critical section
+6−5: Giving up
+1−7: Giving up
+1−7: Giving up
+5−2: Giving up
+7−1: Giving up
+4−5: Giving up
+0−9: Giving up
+4−5: Giving up
+6−5: Giving up
+2−6: End of critical section
+2−7: Non−critical Section
+3−8: Giving up
+3−8: Critical section
+7−1: Giving up
+5−2: Giving up
+1−7: Giving up
+1−7: Giving up
+0−9: Giving up
+2−7: End of non−critical Section
+2−7: Giving up
+6−5: Giving up
+6−5: Giving up
+4−5: Giving up
+4−5: Giving up
+5−2: Giving up
+7−1: Giving up
+7−1: Giving up
+0−9: Giving up
+0−9: Giving up
+2−7: Giving up
+2−7: Giving up
+1−7: Giving up
+3−8: Inside critical section
+3−8: End of critical section
+3−9: Non−critical Section
+6−5: Giving up
+5−2: Giving up
+5−2: Critical section
+4−5: Giving up
+4−5: Giving up
+7−1: Giving up
+7−1: Giving up
+0−9: Giving up
+1−7: Giving up
+3−9: End of non−critical Section
+3−9: Giving up
+2−7: Giving up
+6−5: Giving up
+5−2: Inside critical section
+5−2: End of critical section
+1−7: Giving up
+1−7: Giving up
+0−9: Giving up
+0−9: Critical section
+2−7: Giving up
+2−7: Giving up
+6−5: Giving up
+3−9: Giving up
+4−5: Giving up
+7−1: Giving up
+5−3: Non−critical Section
+5−3: End of non−critical Section
+5−3: Giving up
+1−7: Giving up
+6−5: Giving up
+3−9: Giving up
+4−5: Giving up
+7−1: Giving up
+2−7: Giving up
+2−7: Giving up
+0−9: Inside critical section
+6−5: Giving up
+1−7: Giving up
+1−7: Giving up
+3−9: Giving up
+5−3: Giving up
+4−5: Giving up
+3−9: Giving up
+7−1: Giving up
+7−1: Giving up
+6−5: Giving up
+0−9: End of critical section
+6−5: Critical section
+2−7: Giving up
+4−5: Giving up
+5−3: Giving up
+5−3: Giving up
+1−7: Giving up
+1−7: Giving up
+3−9: Giving up
+3−9: Giving up
+7−1: Giving up
+4−5: Giving up
+4−5: Giving up
+2−7: Giving up
+6−5: Inside critical section
+6−5: End of critical section
+6−6: Non−critical Section
+5−3: Giving up
+5−3: Giving up
+1−7: Giving up
+1−7: Giving up
+7−1: Giving up
+3−9: Giving up
+2−7: Giving up
+2−7: Giving up
+4−5: Critical section
+6−6: End of non−critical Section
+6−6: Giving up
+6−6: Giving up
+5−3: Giving up
+3−9: Giving up
+7−1: Giving up
+4−5: Inside critical section
+4−5: End of critical section
+4−6: Non−critical Section
+2−7: Giving up
+1−7: Giving up
+1−7: Giving up
+7−1: Giving up
+3−9: Giving up
+3−9: Giving up
+5−3: Critical section
+2−7: Giving up
+4−6: End of non−critical Section
+4−6: Giving up
+6−6: Giving up
+7−1: Giving up
+7−1: Giving up
+1−7: Giving up
+5−3: Inside critical section
+5−3: End of critical section
+5−4: Non−critical Section
+3−9: Giving up
+3−9: Giving up
+4−6: Giving up
+6−6: Giving up
+6−6: Giving up
+2−7: Giving up
+2−7: Giving up
+1−7: Critical section
+7−1: Giving up
+5−4: End of non−critical Section
+7−1: Giving up
+4−6: Giving up
+4−6: Giving up
+3−9: Giving up
+3−9: Giving up
+6−6: Giving up
+5−4: Giving up
+1−7: Inside critical section
+1−7: End of critical section
+2−7: Giving up
+2−7: Critical section
+7−1: Giving up
+7−1: Giving up
+4−6: Giving up
+5−4: Giving up
+1−8: Non−critical Section
+1−8: End of non−critical Section
+1−8: Giving up
+6−6: Giving up
+3−9: Giving up
+3−9: Giving up
+5−4: Giving up
+5−4: Giving up
+4−6: Giving up
+6−6: Giving up
+6−6: Giving up
+1−8: Giving up
+7−1: Giving up
+2−7: Inside critical section
+2−7: End of critical section
+7−1: Giving up
+3−9: Giving up
+4−6: Giving up
+4−6: Giving up
+5−4: Giving up
+1−8: Giving up
+2−8: Non−critical Section
+2−8: End of non−critical Section
+2−8: Giving up
+6−6: Critical section
+6−6: Inside critical section
+6−6: End of critical section
+7−1: Giving up
+3−9: Giving up
+5−4: Giving up
+1−8: Giving up
+1−8: Giving up
+4−6: Giving up
+4−6: Critical section
+2−8: Giving up
+2−8: Giving up
+5−4: Giving up
+3−9: Giving up
+7−1: Giving up
+6−7: Non−critical Section
+6−7: End of non−critical Section
+6−7: Giving up
+1−8: Giving up
+4−6: Inside critical section
+7−1: Giving up
+3−9: Giving up
+3−9: Giving up
+5−4: Giving up
+5−4: Giving up
+6−7: Giving up
+1−8: Giving up
+4−6: End of critical section
+4−7: Non−critical Section
+4−7: End of non−critical Section
+7−1: Giving up
+2−8: Giving up
+2−8: Giving up
+3−9: Giving up
+1−8: Critical section
+6−7: Giving up
+6−7: Giving up
+7−1: Giving up
+4−7: Giving up
+5−4: Giving up
+7−1: Giving up
+3−9: Giving up
+1−8: Inside critical section
+1−8: End of critical section
+2−8: Giving up
+4−7: Giving up
+4−7: Giving up
+5−4: Giving up
+5−4: Giving up
+6−7: Giving up
+6−7: Giving up
+7−1: Giving up
+1−9: Non−critical Section
+1−9: End of non−critical Section
+1−9: Giving up
+3−9: Critical section
+2−8: Giving up
+2−8: Giving up
+4−7: Giving up
+4−7: Giving up
+5−4: Giving up
+7−1: Giving up
+3−9: Inside critical section
+3−9: End of critical section
+5−4: Giving up
+1−9: Giving up
+6−7: Giving up
+1−9: Giving up
+2−8: Giving up
+7−1: Giving up
+7−1: Giving up
+7−1: Giving up
+4−7: Critical section
+6−7: Giving up
+6−7: Giving up
+5−4: Giving up
+5−4: Giving up
+2−8: Giving up
+1−9: Giving up
+4−7: Inside critical section
+4−7: End of critical section
+4−8: Non−critical Section
+7−1: Giving up
+7−1: Giving up
+6−7: Giving up
+1−9: Giving up
+2−8: Giving up
+2−8: Giving up
+5−4: Critical section
+4−8: End of non−critical Section
+4−8: Giving up
+6−7: Giving up
+1−9: Giving up
+5−4: Inside critical section
+5−4: End of critical section
+6−7: Giving up
+7−1: Giving up
+2−8: Giving up
+2−8: Giving up
+1−9: Giving up
+5−5: Non−critical Section
+5−5: End of non−critical Section
+5−5: Giving up
+4−8: Critical section
+4−8: Inside critical section
+7−1: Giving up
+7−1: Giving up
+6−7: Giving up
+1−9: Giving up
+1−9: Giving up
+2−8: Giving up
+2−8: Giving up
+5−5: Giving up
+4−8: End of critical section
+4−9: Non−critical Section
+4−9: End of non−critical Section
+4−9: Giving up
+6−7: Giving up
+6−7: Giving up
+7−1: Giving up
+7−1: Giving up
+5−5: Critical section
+5−5: Inside critical section
+2−8: Giving up
+1−9: Giving up
+1−9: Giving up
+4−9: Giving up
+4−9: Giving up
+6−7: Giving up
+2−8: Giving up
+5−5: End of critical section
+5−6: Non−critical Section
+5−6: End of non−critical Section
+6−7: Giving up
+7−1: Giving up
+7−1: Giving up
+1−9: Giving up
+2−8: Critical section
+2−8: Inside critical section
+5−6: Giving up
+5−6: Giving up
+4−9: Giving up
+6−7: Giving up
+6−7: Giving up
+1−9: Giving up
+7−1: Giving up
+2−8: End of critical section
+2−9: Non−critical Section
+2−9: End of non−critical Section
+4−9: Giving up
+2−9: Giving up
+5−6: Giving up
+7−1: Critical section
+7−1: Inside critical section
+1−9: Giving up
+1−9: Giving up
+6−7: Giving up
+4−9: Giving up
+6−7: Giving up
+7−1: End of critical section
+7−2: Non−critical Section
+7−2: End of non−critical Section
+5−6: Giving up
+5−6: Critical section
+2−9: Giving up
+2−9: Giving up
+4−9: Giving up
+4−9: Giving up
+1−9: Giving up
+7−2: Giving up
+6−7: Giving up
+5−6: Inside critical section
+5−6: End of critical section
+1−9: Giving up
+2−9: Giving up
+2−9: Critical section
+7−2: Giving up
+4−9: Giving up
+6−7: Giving up
+5−7: Non−critical Section
+5−7: End of non−critical Section
+5−7: Giving up
+1−9: Giving up
+5−7: Giving up
+6−7: Giving up
+4−9: Giving up
+4−9: Giving up
+7−2: Giving up
+2−9: Inside critical section
+2−9: End of critical section
+1−9: Giving up
+1−9: Critical section
+6−7: Giving up
+6−7: Giving up
+5−7: Giving up
+7−2: Giving up
+7−2: Giving up
+4−9: Giving up
+4−9: Giving up
+5−7: Giving up
+1−9: Inside critical section
+1−9: End of critical section
+6−7: Giving up
+6−7: Giving up
+7−2: Giving up
+7−2: Giving up
+5−7: Giving up
+5−7: Giving up
+4−9: Critical section
+4−9: Inside critical section
+6−7: Giving up
+6−7: Giving up
+7−2: Giving up
+7−2: Giving up
+5−7: Giving up
+4−9: End of critical section
+5−7: Critical section
+6−7: Giving up
+6−7: Giving up
+7−2: Giving up
+5−7: Inside critical section
+5−7: End of critical section
+5−8: Non−critical Section
+5−8: End of non−critical Section
+5−8: Giving up
+6−7: Critical section
+7−2: Giving up
+7−2: Giving up
+6−7: Inside critical section
+6−7: End of critical section
+6−8: Non−critical Section
+6−8: End of non−critical Section
+6−8: Giving up
+5−8: Giving up
+5−8: Giving up
+7−2: Critical section
+7−2: Inside critical section
+7−2: End of critical section
+7−3: Non−critical Section
+6−8: Giving up
+6−8: Critical section
+5−8: Giving up
+5−8: Giving up
+7−3: End of non−critical Section
+7−3: Giving up
+6−8: Inside critical section
+6−8: End of critical section
+6−9: Non−critical Section
+6−9: End of non−critical Section
+6−9: Critical section
+5−8: Giving up
+5−8: Giving up
+7−3: Giving up
+7−3: Giving up
+6−9: Inside critical section
+6−9: End of critical section
+5−8: Giving up
+5−8: Critical section
+5−8: Inside critical section
+7−3: Giving up
+7−3: Giving up
+5−8: End of critical section
+5−9: Non−critical Section
+5−9: End of non−critical Section
+5−9: Critical section
+5−9: Inside critical section
+7−3: Giving up
+7−3: Giving up
+5−9: End of critical section
+7−3: Critical section
+7−3: Inside critical section
+7−3: End of critical section
+7−4: Non−critical Section
+7−4: End of non−critical Section
+7−4: Critical section
+7−4: Inside critical section
+7−4: End of critical section
+7−5: Non−critical Section
+7−5: End of non−critical Section
+7−5: Critical section
+7−5: Inside critical section
+7−5: End of critical section
+7−6: Non−critical Section
+7−6: End of non−critical Section
+7−6: Critical section
+7−6: Inside critical section
+7−6: End of critical section
+7−7: Non−critical Section
+7−7: End of non−critical Section
+7−7: Critical section
+7−7: Inside critical section
+7−7: End of critical section
+7−8: Non−critical Section
+7−8: End of non−critical Section
+7−8: Critical section
+7−8: Inside critical section
+7−8: End of critical section
+7−9: Non−critical Section
+7−9: End of non−critical Section
+7−9: Critical section
+7−9: Inside critical section
+7−9: End of critical section
+Valor final del contador 80
+fin
+[?2004h]0;prpa@prpa: ~/Dekker[01;32mprpa@prpa[00m:[01;34m~/Dekker[00m$ python3 03.py[C[1P.py4.py
+[?2004lValor inicial del contador 0
+1−0: Non−critical Section
+0−0: Non−critical Section
+0−0: End of non−critical Section
+0−0: Critical section
+0−0: Inside critical section
+0−0: End of critical section
+0−1: Non−critical Section
+0−1: End of non−critical Section
+0−1: Critical section
+0−1: Inside critical section
+0−1: End of critical section
+0−2: Non−critical Section
+0−2: End of non−critical Section
+0−2: Critical section
+0−2: Inside critical section
+0−2: End of critical section
+0−3: Non−critical Section
+0−3: End of non−critical Section
+0−3: Critical section
+4−0: Non−critical Section
+3−0: Non−critical Section
+2−0: Non−critical Section
+1−0: End of non−critical Section
+1−0: Giving up
+1−0: Giving up
+1−0: Giving up
+1−0: Giving up
+1−0: Giving up
+1−0: Giving up
+2−0: End of non−critical Section
+2−0: Giving up
+1−0: Giving up
+1−0: Giving up
+1−0: Giving up
+2−0: Giving up
+2−0: Giving up
+2−0: Giving up
+1−0: Giving up
+1−0: Giving up
+1−0: Giving up
+2−0: Giving up
+2−0: Giving up
+3−0: End of non−critical Section
+3−0: Giving up
+1−0: Giving up
+1−0: Giving up
+1−0: Giving up
+2−0: Giving up
+2−0: Giving up
+4−0: End of non−critical Section
+4−0: Giving up
+0−3: Inside critical section
+0−3: End of critical section
+1−0: Giving up
+1−0: Giving up
+3−0: Giving up
+2−0: Giving up
+2−0: Giving up
+0−4: Non−critical Section
+0−4: End of non−critical Section
+0−4: Giving up
+4−0: Critical section
+3−0: Giving up
+3−0: Giving up
+1−0: Giving up
+1−0: Giving up
+2−0: Giving up
+2−0: Giving up
+4−0: Inside critical section
+4−0: End of critical section
+4−1: Non−critical Section
+3−0: Giving up
+1−0: Giving up
+4−1: End of non−critical Section
+4−1: Giving up
+2−0: Critical section
+3−0: Giving up
+3−0: Giving up
+1−0: Giving up
+2−0: Inside critical section
+2−0: End of critical section
+5−0: Non−critical Section
+1−0: Critical section
+3−0: Giving up
+2−1: Non−critical Section
+2−1: End of non−critical Section
+2−1: Giving up
+4−1: Giving up
+6−0: Non−critical Section
+6−0: End of non−critical Section
+6−0: Giving up
+5−0: End of non−critical Section
+5−0: Giving up
+7−0: Non−critical Section
+3−0: Giving up
+1−0: Inside critical section
+1−0: End of critical section
+7−0: End of non−critical Section
+7−0: Critical section
+7−0: Inside critical section
+7−0: End of critical section
+4−1: Critical section
+4−1: Inside critical section
+6−0: Giving up
+5−0: Giving up
+5−0: Giving up
+3−0: Giving up
+1−1: Non−critical Section
+1−1: End of non−critical Section
+1−1: Giving up
+6−0: Giving up
+4−1: End of critical section
+3−0: Giving up
+4−2: Non−critical Section
+4−2: End of non−critical Section
+4−2: Giving up
+3−0: Critical section
+3−0: Inside critical section
+5−0: Giving up
+5−0: Giving up
+6−0: Giving up
+6−0: Giving up
+3−0: End of critical section
+3−1: Non−critical Section
+0−4: Giving up
+6−0: Critical section
+5−0: Giving up
+3−1: End of non−critical Section
+3−1: Giving up
+0−4: Giving up
+0−4: Giving up
+5−0: Giving up
+6−0: Inside critical section
+6−0: End of critical section
+6−1: Non−critical Section
+6−1: End of non−critical Section
+5−0: Giving up
+6−1: Giving up
+0−4: Critical section
+0−4: Inside critical section
+5−0: Giving up
+5−0: Giving up
+0−4: End of critical section
+0−5: Non−critical Section
+0−5: End of non−critical Section
+0−5: Giving up
+5−0: Critical section
+5−0: Inside critical section
+5−0: End of critical section
+6−1: Giving up
+6−1: Giving up
+6−1: Critical section
+1−1: Giving up
+5−1: Non−critical Section
+5−1: End of non−critical Section
+5−1: Giving up
+7−1: Non−critical Section
+7−1: End of non−critical Section
+1−1: Giving up
+6−1: Inside critical section
+6−1: End of critical section
+6−2: Non−critical Section
+5−1: Giving up
+5−1: Critical section
+1−1: Giving up
+1−1: Giving up
+7−1: Giving up
+6−2: End of non−critical Section
+7−1: Giving up
+5−1: Inside critical section
+5−1: End of critical section
+6−2: Giving up
+1−1: Giving up
+7−1: Giving up
+5−2: Non−critical Section
+1−1: Critical section
+5−2: End of non−critical Section
+5−2: Giving up
+1−1: Inside critical section
+7−1: Giving up
+7−1: Giving up
+0−5: Giving up
+1−1: End of critical section
+1−2: Non−critical Section
+1−2: End of non−critical Section
+1−2: Giving up
+0−5: Critical section
+7−1: Giving up
+0−5: Inside critical section
+0−5: End of critical section
+7−1: Critical section
+7−1: Inside critical section
+7−1: End of critical section
+0−6: Non−critical Section
+7−2: Non−critical Section
+0−6: End of non−critical Section
+0−6: Critical section
+7−2: End of non−critical Section
+7−2: Giving up
+0−6: Inside critical section
+0−6: End of critical section
+0−7: Non−critical Section
+0−7: End of non−critical Section
+0−7: Critical section
+0−7: Inside critical section
+0−7: End of critical section
+0−8: Non−critical Section
+0−8: End of non−critical Section
+0−8: Critical section
+0−8: Inside critical section
+0−8: End of critical section
+2−1: Giving up
+2−1: Giving up
+2−1: Giving up
+2−1: Giving up
+2−1: Giving up
+2−1: Giving up
+2−1: Giving up
+2−1: Giving up
+2−1: Giving up
+2−1: Giving up
+2−1: Giving up
+7−2: Giving up
+7−2: Giving up
+7−2: Giving up
+2−1: Giving up
+2−1: Giving up
+4−2: Giving up
+4−2: Giving up
+4−2: Giving up
+7−2: Giving up
+7−2: Giving up
+2−1: Giving up
+2−1: Giving up
+4−2: Giving up
+4−2: Giving up
+3−1: Giving up
+7−2: Giving up
+7−2: Giving up
+2−1: Giving up
+2−1: Giving up
+3−1: Giving up
+3−1: Giving up
+4−2: Giving up
+4−2: Giving up
+7−2: Giving up
+7−2: Giving up
+2−1: Giving up
+7−2: Giving up
+3−1: Giving up
+4−2: Giving up
+4−2: Giving up
+2−1: Giving up
+2−1: Giving up
+3−1: Giving up
+7−2: Giving up
+7−2: Giving up
+4−2: Giving up
+3−1: Giving up
+2−1: Giving up
+4−2: Giving up
+3−1: Giving up
+7−2: Giving up
+2−1: Giving up
+7−2: Giving up
+3−1: Giving up
+4−2: Giving up
+3−1: Giving up
+1−2: Giving up
+1−2: Giving up
+2−1: Giving up
+4−2: Giving up
+7−2: Giving up
+4−2: Giving up
+3−1: Giving up
+7−2: Giving up
+3−1: Giving up
+2−1: Giving up
+1−2: Giving up
+1−2: Giving up
+7−2: Giving up
+4−2: Giving up
+4−2: Giving up
+6−2: Giving up
+2−1: Giving up
+2−1: Giving up
+3−1: Giving up
+7−2: Giving up
+7−2: Giving up
+1−2: Giving up
+1−2: Giving up
+6−2: Giving up
+6−2: Giving up
+4−2: Giving up
+3−1: Giving up
+3−1: Giving up
+2−1: Giving up
+2−1: Giving up
+7−2: Giving up
+7−2: Giving up
+1−2: Giving up
+4−2: Giving up
+4−2: Giving up
+6−2: Giving up
+3−1: Giving up
+3−1: Giving up
+2−1: Giving up
+1−2: Giving up
+1−2: Giving up
+6−2: Giving up
+6−2: Giving up
+7−2: Giving up
+4−2: Giving up
+4−2: Giving up
+2−1: Giving up
+2−1: Giving up
+3−1: Giving up
+3−1: Giving up
+1−2: Giving up
+7−2: Giving up
+7−2: Giving up
+6−2: Giving up
+6−2: Giving up
+4−2: Giving up
+4−2: Giving up
+2−1: Giving up
+1−2: Giving up
+1−2: Giving up
+3−1: Giving up
+7−2: Giving up
+7−2: Giving up
+6−2: Giving up
+2−1: Giving up
+2−1: Giving up
+4−2: Giving up
+3−1: Giving up
+3−1: Giving up
+1−2: Giving up
+1−2: Giving up
+6−2: Giving up
+7−2: Giving up
+7−2: Giving up
+4−2: Giving up
+4−2: Giving up
+2−1: Giving up
+3−1: Giving up
+6−2: Giving up
+6−2: Giving up
+5−2: Giving up
+1−2: Giving up
+1−2: Giving up
+7−2: Giving up
+3−1: Giving up
+7−2: Giving up
+4−2: Giving up
+2−1: Giving up
+2−1: Giving up
+5−2: Giving up
+6−2: Giving up
+6−2: Giving up
+3−1: Giving up
+3−1: Giving up
+1−2: Giving up
+4−2: Giving up
+1−2: Giving up
+7−2: Giving up
+5−2: Giving up
+5−2: Giving up
+2−1: Giving up
+2−1: Giving up
+6−2: Giving up
+4−2: Giving up
+4−2: Giving up
+3−1: Giving up
+7−2: Giving up
+7−2: Giving up
+5−2: Giving up
+5−2: Giving up
+1−2: Giving up
+6−2: Giving up
+2−1: Giving up
+3−1: Giving up
+1−2: Giving up
+4−2: Giving up
+4−2: Giving up
+7−2: Giving up
+2−1: Giving up
+6−2: Giving up
+3−1: Giving up
+3−1: Giving up
+5−2: Giving up
+5−2: Giving up
+1−2: Giving up
+7−2: Giving up
+6−2: Giving up
+2−1: Giving up
+7−2: Giving up
+4−2: Giving up
+4−2: Giving up
+3−1: Giving up
+2−1: Giving up
+1−2: Giving up
+6−2: Giving up
+1−2: Giving up
+5−2: Giving up
+7−2: Giving up
+7−2: Giving up
+6−2: Giving up
+2−1: Giving up
+3−1: Giving up
+3−1: Giving up
+4−2: Giving up
+4−2: Giving up
+1−2: Giving up
+5−2: Giving up
+2−1: Giving up
+1−2: Giving up
+6−2: Giving up
+7−2: Giving up
+7−2: Giving up
+3−1: Giving up
+5−2: Giving up
+2−1: Giving up
+2−1: Giving up
+4−2: Giving up
+4−2: Giving up
+6−2: Giving up
+1−2: Giving up
+5−2: Giving up
+1−2: Giving up
+3−1: Giving up
+3−1: Giving up
+7−2: Giving up
+2−1: Giving up
+5−2: Giving up
+5−2: Giving up
+4−2: Giving up
+4−2: Giving up
+1−2: Giving up
+6−2: Giving up
+6−2: Giving up
+2−1: Giving up
+7−2: Giving up
+7−2: Giving up
+3−1: Giving up
+3−1: Giving up
+5−2: Giving up
+5−2: Giving up
+1−2: Giving up
+4−2: Giving up
+2−1: Giving up
+2−1: Giving up
+6−2: Giving up
+6−2: Giving up
+7−2: Giving up
+7−2: Giving up
+3−1: Giving up
+4−2: Giving up
+4−2: Giving up
+5−2: Giving up
+2−1: Giving up
+1−2: Giving up
+5−2: Giving up
+6−2: Giving up
+6−2: Giving up
+3−1: Giving up
+7−2: Giving up
+3−1: Giving up
+2−1: Giving up
+1−2: Giving up
+4−2: Giving up
+5−2: Giving up
+7−2: Giving up
+5−2: Giving up
+6−2: Giving up
+2−1: Giving up
+4−2: Giving up
+1−2: Giving up
+1−2: Giving up
+3−1: Giving up
+3−1: Giving up
+7−2: Giving up
+2−1: Giving up
+4−2: Giving up
+4−2: Giving up
+5−2: Giving up
+6−2: Giving up
+6−2: Giving up
+1−2: Giving up
+2−1: Giving up
+2−1: Giving up
+7−2: Giving up
+7−2: Giving up
+3−1: Giving up
+3−1: Giving up
+4−2: Giving up
+4−2: Giving up
+5−2: Giving up
+1−2: Giving up
+1−2: Giving up
+2−1: Giving up
+7−2: Giving up
+7−2: Giving up
+3−1: Giving up
+5−2: Giving up
+4−2: Giving up
+6−2: Giving up
+4−2: Giving up
+2−1: Giving up
+2−1: Giving up
+3−1: Giving up
+6−2: Giving up
+5−2: Giving up
+1−2: Giving up
+5−2: Giving up
+7−2: Giving up
+7−2: Giving up
+4−2: Giving up
+3−1: Giving up
+6−2: Giving up
+1−2: Giving up
+6−2: Giving up
+2−1: Giving up
+2−1: Giving up
+5−2: Giving up
+4−2: Giving up
+4−2: Giving up
+1−2: Giving up
+3−1: Giving up
+3−1: Giving up
+7−2: Giving up
+7−2: Giving up
+6−2: Giving up
+5−2: Giving up
+6−2: Giving up
+2−1: Giving up
+1−2: Giving up
+1−2: Giving up
+4−2: Giving up
+4−2: Giving up
+3−1: Giving up
+5−2: Giving up
+5−2: Giving up
+7−2: Giving up
+2−1: Giving up
+2−1: Giving up
+6−2: Giving up
+1−2: Giving up
+1−2: Giving up
+3−1: Giving up
+7−2: Giving up
+7−2: Giving up
+4−2: Giving up
+5−2: Giving up
+5−2: Giving up
+6−2: Giving up
+2−1: Giving up
+2−1: Giving up
+3−1: Giving up
+4−2: Giving up
+3−1: Giving up
+1−2: Giving up
+7−2: Giving up
+6−2: Giving up
+7−2: Giving up
+4−2: Giving up
+5−2: Giving up
+2−1: Giving up
+4−2: Giving up
+1−2: Giving up
+6−2: Giving up
+6−2: Giving up
+3−1: Giving up
+3−1: Giving up
+5−2: Giving up
+5−2: Giving up
+2−1: Giving up
+7−2: Giving up
+7−2: Giving up
+1−2: Giving up
+1−2: Giving up
+6−2: Giving up
+6−2: Giving up
+4−2: Giving up
+3−1: Giving up
+3−1: Giving up
+7−2: Giving up
+7−2: Giving up
+2−1: Giving up
+2−1: Giving up
+5−2: Giving up
+4−2: Giving up
+4−2: Giving up
+6−2: Giving up
+1−2: Giving up
+1−2: Giving up
+3−1: Giving up
+3−1: Giving up
+7−2: Giving up
+5−2: Giving up
+5−2: Giving up
+2−1: Giving up
+6−2: Giving up
+6−2: Giving up
+4−2: Giving up
+4−2: Giving up
+1−2: Giving up
+7−2: Giving up
+7−2: Giving up
+3−1: Giving up
+2−1: Giving up
+2−1: Giving up
+5−2: Giving up
+6−2: Giving up
+1−2: Giving up
+6−2: Giving up
+4−2: Giving up
+3−1: Giving up
+3−1: Giving up
+7−2: Giving up
+1−2: Giving up
+5−2: Giving up
+5−2: Giving up
+2−1: Giving up
+2−1: Giving up
+4−2: Giving up
+4−2: Giving up
+6−2: Giving up
+7−2: Giving up
+1−2: Giving up
+1−2: Giving up
+3−1: Giving up
+5−2: Giving up
+5−2: Giving up
+2−1: Giving up
+7−2: Giving up
+7−2: Giving up
+6−2: Giving up
+6−2: Giving up
+4−2: Giving up
+3−1: Giving up
+1−2: Giving up
+1−2: Giving up
+2−1: Giving up
+2−1: Giving up
+7−2: Giving up
+5−2: Giving up
+4−2: Giving up
+3−1: Giving up
+3−1: Giving up
+6−2: Giving up
+6−2: Giving up
+1−2: Giving up
+4−2: Giving up
+5−2: Giving up
+7−2: Giving up
+5−2: Giving up
+3−1: Giving up
+2−1: Giving up
+4−2: Giving up
+7−2: Giving up
+7−2: Giving up
+1−2: Giving up
+1−2: Giving up
+6−2: Giving up
+3−1: Giving up
+5−2: Giving up
+5−2: Giving up
+4−2: Giving up
+4−2: Giving up
+2−1: Giving up
+2−1: Giving up
+7−2: Giving up
+6−2: Giving up
+3−1: Giving up
+3−1: Giving up
+1−2: Giving up
+5−2: Giving up
+5−2: Giving up
+4−2: Giving up
+6−2: Giving up
+6−2: Giving up
+7−2: Giving up
+7−2: Giving up
+2−1: Giving up
+1−2: Giving up
+1−2: Giving up
+3−1: Giving up
+4−2: Giving up
+4−2: Giving up
+6−2: Giving up
+5−2: Giving up
+5−2: Giving up
+2−1: Giving up
+7−2: Giving up
+7−2: Giving up
+3−1: Giving up
+1−2: Giving up
+1−2: Giving up
+6−2: Giving up
+4−2: Giving up
+4−2: Giving up
+2−1: Giving up
+5−2: Giving up
+3−1: Giving up
+7−2: Giving up
+7−2: Giving up
+6−2: Giving up
+1−2: Giving up
+2−1: Giving up
+5−2: Giving up
+3−1: Giving up
+3−1: Giving up
+4−2: Giving up
+4−2: Giving up
+6−2: Giving up
+1−2: Giving up
+5−2: Giving up
+7−2: Giving up
+7−2: Giving up
+2−1: Giving up
+2−1: Giving up
+3−1: Giving up
+6−2: Giving up
+6−2: Giving up
+1−2: Giving up
+5−2: Giving up
+5−2: Giving up
+7−2: Giving up
+4−2: Giving up
+4−2: Giving up
+3−1: Giving up
+1−2: Giving up
+3−1: Giving up
+6−2: Giving up
+2−1: Giving up
+6−2: Giving up
+7−2: Giving up
+5−2: Giving up
+1−2: Giving up
+5−2: Giving up
+4−2: Giving up
+2−1: Giving up
+2−1: Giving up
+3−1: Giving up
+3−1: Giving up
+1−2: Giving up
+7−2: Giving up
+7−2: Giving up
+6−2: Giving up
+6−2: Giving up
+4−2: Giving up
+4−2: Giving up
+5−2: Giving up
+5−2: Giving up
+2−1: Giving up
+1−2: Giving up
+1−2: Giving up
+3−1: Giving up
+7−2: Giving up
+7−2: Giving up
+6−2: Giving up
+6−2: Giving up
+2−1: Giving up
+2−1: Giving up
+3−1: Giving up
+1−2: Giving up
+5−2: Giving up
+5−2: Giving up
+5−2: Giving up
+4−2: Giving up
+7−2: Giving up
+7−2: Giving up
+6−2: Giving up
+1−2: Giving up
+3−1: Giving up
+1−2: Giving up
+2−1: Giving up
+2−1: Giving up
+4−2: Giving up
+3−1: Giving up
+3−1: Giving up
+6−2: Giving up
+7−2: Giving up
+5−2: Giving up
+1−2: Giving up
+3−1: Giving up
+2−1: Giving up
+4−2: Giving up
+7−2: Giving up
+5−2: Giving up
+1−2: Giving up
+6−2: Giving up
+3−1: Giving up
+0−9: Non−critical Section
+0−9: End of non−critical Section
+0−9: Giving up
+4−2: Critical section
+2−1: Giving up
+7−2: Giving up
+7−2: Giving up
+6−2: Giving up
+1−2: Giving up
+5−2: Giving up
+3−1: Giving up
+2−1: Giving up
+4−2: Inside critical section
+4−2: End of critical section
+1−2: Critical section
+5−2: Giving up
+5−2: Giving up
+6−2: Giving up
+6−2: Giving up
+7−2: Giving up
+3−1: Giving up
+3−1: Giving up
+2−1: Giving up
+4−3: Non−critical Section
+4−3: End of non−critical Section
+1−2: Inside critical section
+1−2: End of critical section
+5−2: Giving up
+7−2: Giving up
+5−2: Giving up
+6−2: Giving up
+2−1: Giving up
+4−3: Giving up
+4−3: Giving up
+1−3: Non−critical Section
+1−3: End of non−critical Section
+1−3: Giving up
+3−1: Critical section
+7−2: Giving up
+2−1: Giving up
+2−1: Giving up
+6−2: Giving up
+5−2: Giving up
+7−2: Giving up
+3−1: Inside critical section
+3−1: End of critical section
+4−3: Critical section
+6−2: Giving up
+6−2: Giving up
+5−2: Giving up
+2−1: Giving up
+7−2: Giving up
+3−2: Non−critical Section
+3−2: End of non−critical Section
+3−2: Giving up
+4−3: Inside critical section
+4−3: End of critical section
+5−2: Giving up
+2−1: Giving up
+2−1: Giving up
+7−2: Giving up
+7−2: Critical section
+6−2: Giving up
+6−2: Giving up
+5−2: Giving up
+4−4: Non−critical Section
+4−4: End of non−critical Section
+4−4: Giving up
+2−1: Giving up
+7−2: Inside critical section
+7−2: End of critical section
+5−2: Giving up
+7−3: Non−critical Section
+7−3: End of non−critical Section
+6−2: Giving up
+7−3: Giving up
+2−1: Giving up
+5−2: Critical section
+5−2: Inside critical section
+5−2: End of critical section
+6−2: Giving up
+5−3: Non−critical Section
+2−1: Giving up
+2−1: Giving up
+6−2: Critical section
+5−3: End of non−critical Section
+5−3: Giving up
+6−2: Inside critical section
+6−2: End of critical section
+2−1: Giving up
+6−3: Non−critical Section
+6−3: End of non−critical Section
+6−3: Giving up
+2−1: Critical section
+2−1: Inside critical section
+2−1: End of critical section
+2−2: Non−critical Section
+2−2: End of non−critical Section
+2−2: Critical section
+2−2: Inside critical section
+2−2: End of critical section
+2−3: Non−critical Section
+2−3: End of non−critical Section
+2−3: Critical section
+2−3: Inside critical section
+2−3: End of critical section
+2−4: Non−critical Section
+2−4: End of non−critical Section
+2−4: Critical section
+2−4: Inside critical section
+2−4: End of critical section
+2−5: Non−critical Section
+2−5: End of non−critical Section
+2−5: Critical section
+2−5: Inside critical section
+2−5: End of critical section
+4−4: Giving up
+4−4: Giving up
+2−6: Non−critical Section
+2−6: End of non−critical Section
+2−6: Critical section
+4−4: Giving up
+4−4: Giving up
+2−6: Inside critical section
+2−6: End of critical section
+2−7: Non−critical Section
+4−4: Critical section
+2−7: End of non−critical Section
+2−7: Giving up
+4−4: Inside critical section
+4−4: End of critical section
+4−5: Non−critical Section
+4−5: End of non−critical Section
+4−5: Giving up
+1−3: Giving up
+1−3: Giving up
+0−9: Critical section
+0−9: Inside critical section
+0−9: End of critical section
+5−3: Giving up
+1−3: Giving up
+1−3: Critical section
+5−3: Giving up
+5−3: Giving up
+1−3: Inside critical section
+1−3: End of critical section
+1−4: Non−critical Section
+5−3: Giving up
+5−3: Critical section
+1−4: End of non−critical Section
+1−4: Giving up
+5−3: Inside critical section
+5−3: End of critical section
+5−4: Non−critical Section
+5−4: End of non−critical Section
+5−4: Critical section
+7−3: Giving up
+7−3: Giving up
+5−4: Inside critical section
+5−4: End of critical section
+5−5: Non−critical Section
+5−5: End of non−critical Section
+7−3: Giving up
+7−3: Giving up
+4−5: Critical section
+5−5: Giving up
+7−3: Giving up
+4−5: Inside critical section
+4−5: End of critical section
+4−6: Non−critical Section
+4−6: End of non−critical Section
+4−6: Giving up
+7−3: Critical section
+7−3: Inside critical section
+7−3: End of critical section
+7−4: Non−critical Section
+7−4: End of non−critical Section
+7−4: Critical section
+7−4: Inside critical section
+7−4: End of critical section
+7−5: Non−critical Section
+7−5: End of non−critical Section
+7−5: Critical section
+7−5: Inside critical section
+7−5: End of critical section
+6−3: Giving up
+6−3: Giving up
+7−6: Non−critical Section
+7−6: End of non−critical Section
+7−6: Critical section
+7−6: Inside critical section
+7−6: End of critical section
+7−7: Non−critical Section
+6−3: Giving up
+6−3: Critical section
+2−7: Giving up
+7−7: End of non−critical Section
+6−3: Inside critical section
+6−3: End of critical section
+3−2: Giving up
+1−4: Giving up
+2−7: Giving up
+2−7: Critical section
+7−7: Giving up
+7−7: Giving up
+6−4: Non−critical Section
+6−4: End of non−critical Section
+6−4: Giving up
+2−7: Inside critical section
+2−7: End of critical section
+1−4: Giving up
+2−8: Non−critical Section
+3−2: Giving up
+3−2: Giving up
+7−7: Giving up
+1−4: Critical section
+6−4: Giving up
+2−8: End of non−critical Section
+7−7: Giving up
+6−4: Giving up
+3−2: Giving up
+1−4: Inside critical section
+1−4: End of critical section
+2−8: Giving up
+3−2: Giving up
+6−4: Giving up
+7−7: Giving up
+1−5: Non−critical Section
+1−5: End of non−critical Section
+1−5: Giving up
+6−4: Critical section
+3−2: Giving up
+7−7: Giving up
+6−4: Inside critical section
+6−4: End of critical section
+3−2: Critical section
+3−2: Inside critical section
+7−7: Giving up
+7−7: Giving up
+6−5: Non−critical Section
+6−5: End of non−critical Section
+3−2: End of critical section
+3−3: Non−critical Section
+3−3: End of non−critical Section
+6−5: Giving up
+3−3: Giving up
+7−7: Critical section
+7−7: Inside critical section
+6−5: Giving up
+7−7: End of critical section
+6−5: Critical section
+7−8: Non−critical Section
+7−8: End of non−critical Section
+7−8: Giving up
+6−5: Inside critical section
+6−5: End of critical section
+6−6: Non−critical Section
+6−6: End of non−critical Section
+6−6: Giving up
+7−8: Critical section
+7−8: Inside critical section
+7−8: End of critical section
+7−9: Non−critical Section
+4−6: Giving up
+6−6: Critical section
+7−9: End of non−critical Section
+7−9: Giving up
+6−6: Inside critical section
+6−6: End of critical section
+6−7: Non−critical Section
+4−6: Giving up
+4−6: Critical section
+6−7: End of non−critical Section
+6−7: Giving up
+4−6: Inside critical section
+4−6: End of critical section
+4−7: Non−critical Section
+4−7: End of non−critical Section
+4−7: Critical section
+4−7: Inside critical section
+4−7: End of critical section
+4−8: Non−critical Section
+1−5: Giving up
+4−8: End of non−critical Section
+1−5: Critical section
+4−8: Giving up
+5−5: Giving up
+5−5: Giving up
+1−5: Inside critical section
+1−5: End of critical section
+1−6: Non−critical Section
+5−5: Giving up
+1−6: End of non−critical Section
+1−6: Giving up
+5−5: Critical section
+5−5: Inside critical section
+5−5: End of critical section
+5−6: Non−critical Section
+2−8: Giving up
+2−8: Critical section
+5−6: End of non−critical Section
+5−6: Giving up
+3−3: Giving up
+2−8: Inside critical section
+2−8: End of critical section
+2−9: Non−critical Section
+2−9: End of non−critical Section
+2−9: Giving up
+3−3: Critical section
+3−3: Inside critical section
+3−3: End of critical section
+3−4: Non−critical Section
+3−4: End of non−critical Section
+3−4: Critical section
+3−4: Inside critical section
+3−4: End of critical section
+3−5: Non−critical Section
+3−5: End of non−critical Section
+3−5: Critical section
+3−5: Inside critical section
+3−5: End of critical section
+3−6: Non−critical Section
+3−6: End of non−critical Section
+3−6: Critical section
+3−6: Inside critical section
+3−6: End of critical section
+3−7: Non−critical Section
+4−8: Giving up
+4−8: Critical section
+3−7: End of non−critical Section
+3−7: Giving up
+4−8: Inside critical section
+4−8: End of critical section
+4−9: Non−critical Section
+4−9: End of non−critical Section
+4−9: Critical section
+4−9: Inside critical section
+4−9: End of critical section
+1−6: Critical section
+1−6: Inside critical section
+1−6: End of critical section
+1−7: Non−critical Section
+1−7: End of non−critical Section
+1−7: Critical section
+1−7: Inside critical section
+1−7: End of critical section
+1−8: Non−critical Section
+5−6: Giving up
+5−6: Critical section
+7−9: Giving up
+1−8: End of non−critical Section
+1−8: Giving up
+7−9: Giving up
+5−6: Inside critical section
+5−6: End of critical section
+5−7: Non−critical Section
+5−7: End of non−critical Section
+7−9: Giving up
+5−7: Critical section
+5−7: Inside critical section
+7−9: Giving up
+7−9: Giving up
+5−7: End of critical section
+5−8: Non−critical Section
+5−8: End of non−critical Section
+5−8: Giving up
+7−9: Critical section
+7−9: Inside critical section
+7−9: End of critical section
+6−7: Critical section
+2−9: Giving up
+2−9: Giving up
+6−7: Inside critical section
+6−7: End of critical section
+6−8: Non−critical Section
+6−8: End of non−critical Section
+6−8: Giving up
+3−7: Giving up
+2−9: Critical section
+2−9: Inside critical section
+2−9: End of critical section
+3−7: Critical section
+3−7: Inside critical section
+3−7: End of critical section
+3−8: Non−critical Section
+3−8: End of non−critical Section
+3−8: Critical section
+3−8: Inside critical section
+3−8: End of critical section
+3−9: Non−critical Section
+3−9: End of non−critical Section
+3−9: Critical section
+3−9: Inside critical section
+3−9: End of critical section
+1−8: Critical section
+1−8: Inside critical section
+1−8: End of critical section
+1−9: Non−critical Section
+1−9: End of non−critical Section
+1−9: Critical section
+6−8: Giving up
+1−9: Inside critical section
+6−8: Giving up
+1−9: End of critical section
+6−8: Critical section
+6−8: Inside critical section
+6−8: End of critical section
+6−9: Non−critical Section
+6−9: End of non−critical Section
+6−9: Critical section
+6−9: Inside critical section
+6−9: End of critical section
+5−8: Giving up
+5−8: Critical section
+5−8: Inside critical section
+5−8: End of critical section
+5−9: Non−critical Section
+5−9: End of non−critical Section
+5−9: Critical section
+5−9: Inside critical section
+5−9: End of critical section
+Valor final del contador 80
+fin
+[?2004h]0;prpa@prpa: ~/Dekker[01;32mprpa@prpa[00m:[01;34m~/Dekker[00m$ cp 03.py ::/[K[K[K../03.py
+[?2004l[?2004h]0;prpa@prpa: ~/Dekker[01;32mprpa@prpa[00m:[01;34m~/Dekker[00m$ cd ..
+[?2004l[?2004h]0;prpa@prpa: ~[01;32mprpa@prpa[00m:[01;34m~[00m$ ls
+[?2004l01.py   02.txt         1_procesos.py  dekker_Javi.txt  [0m[01;34mDocumentos[0m  [01;34mMultiprocesing[0m                 [01;34mMúsica[0m      [01;34msnap[0m
+01.txt  03.py          2_procesos.py  [01;34mDescargas[0m        id_rsa      multiprocessing_Javier_01.txt  [01;34mPlantillas[0m  [01;34mVídeos[0m
+02.py   0_procesos.py  [01;34mDekker[0m         [01;34mDesktop[0m          [01;34mImágenes[0m    multiprocessing_Javier.txt     [01;34mPúblico[0m
+[?2004h]0;prpa@prpa: ~[01;32mprpa@prpa[00m:[01;34m~[00m$ cd Dekker/
+[?2004l[?2004h]0;prpa@prpa: ~/Dekker[01;32mprpa@prpa[00m:[01;34m~/Dekker[00m$ cd Dekker/ls[Kcd ..p 03.py ../03.py[1P.py4.py[1P[1@4
+[?2004l[?2004h]0;prpa@prpa: ~/Dekker[01;32mprpa@prpa[00m:[01;34m~/Dekker[00m$ [?2004l
+exit
+
+Script done on 2023-02-09 09:53:59+01:00 [COMMAND_EXIT_CODE="0"]
